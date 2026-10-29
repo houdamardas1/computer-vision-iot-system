@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+tensorflow==2.19.0
+keras==3.9.2  # the model in app/model.pkl was saved with Keras 3.9.2
+opencv-python-headless>=4.9
+numpy
+pytest>=8.0
+httpx>=0.27

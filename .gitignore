@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+
+# Datasets and training outputs
+data/
+datasets/
+runs/
+*.h5
+*.keras
+*.pt
+*.onnx
+# app/model.pkl is the deployed model and is committed on purpose
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
