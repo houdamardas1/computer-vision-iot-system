@@ -1,30 +1,17 @@
-# Computer Vision & IoT System
+# Computer Vision & IoT System: automatic bottle sorting
 
-AI-powered industrial inspection system for automated defect detection and intelligent sorting.
+Academic project (April 2024): a camera detects visual defects on bottles and sorts them automatically.
 
-## Features
+## What it does
 
-* Real-time object detection
-* Defect identification
-* Smart sorting automation
-* IoT integration
-* Data collection and monitoring
+- Detects defects with YOLO, OpenCV and TensorFlow on a Raspberry Pi
+- Stores detection data in MongoDB
+- Working team prototype with full hardware and software integration
 
-## Tech Stack
+## Tech stack
 
-* Python
-* OpenCV
-* YOLO
-* Raspberry Pi
-* MongoDB
-
-## Applications
-
-* Quality control
-* Industrial automation
-* Smart manufacturing
+Python · OpenCV · YOLO · TensorFlow · Raspberry Pi · MongoDB
 
 ## Status
 
-Academic AI & IoT Engineering Project
-
+Academic prototype built in a team at HESTIM.
