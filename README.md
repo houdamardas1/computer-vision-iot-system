@@ -4,6 +4,12 @@ Academic team project (HESTIM, April 2024): a camera takes a picture of each bot
 
 This repository contains the **image classification service** at the heart of the system: a MobileNet based model served through a REST API with FastAPI, packaged with Docker and covered by automated tests.
 
+## Demo
+
+[![Demo video: bottle defect detection on the physical prototype](docs/demo-thumbnail.jpg)](docs/demo.mp4)
+
+A 38 second walkthrough of the team prototype at HESTIM: the robotic arm cell, live detection of conforming and defective bottles, and the prediction results stored in MongoDB. [Watch the video](docs/demo.mp4).
+
 ## Features
 
 - **Bottle classification** with a convolutional neural network (MobileNet transfer learning, binary output)
